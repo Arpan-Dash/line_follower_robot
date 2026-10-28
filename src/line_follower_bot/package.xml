@@ -3,9 +3,9 @@
 <package format="3">
   <name>line_follower_bot</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>Camera-based ROS 2 line follower for Gazebo track trials.</description>
   <maintainer email="arpan@todo.todo">arpan</maintainer>
-  <license>TODO: License declaration</license>
+  <license>Apache-2.0</license>
 
   <depend>rclpy</depend>
   <depend>geometry_msgs</depend>
@@ -14,6 +14,16 @@
   <depend>cv_bridge</depend>
   <depend>std_msgs</depend>
   <depend>tf2_ros</depend>
+  <depend>tf2_msgs</depend>
+  <exec_depend>ament_index_python</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>ros_gz_bridge</exec_depend>
+  <exec_depend>ros_gz_sim</exec_depend>
+  <exec_depend>xacro</exec_depend>
+  <exec_depend>python3-numpy</exec_depend>
+  <exec_depend>python3-opencv</exec_depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
