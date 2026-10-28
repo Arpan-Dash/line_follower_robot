@@ -1,0 +1,14 @@
+line_follower:
+  ros__parameters:
+    base_speed: 0.42
+    min_speed: 0.10
+    max_angular_speed: 3.5
+    kp: 2.8
+    ki: 0.03
+    kd: 0.24
+    integral_limit: 0.7
+    derivative_alpha: 0.72
+    roi_top_ratio: 0.42
+    threshold: 105
+    lost_timeout: 0.65
+    recovery_speed: 0.16
